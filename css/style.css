@@ -34,8 +34,7 @@ ul{
 
 .navbar {
   overflow: hidden;
-  background-color: #04050A; 
-  width: 1fr;
+  background-color: #04050A;   
   padding-right: 10%;
   padding-left: 10%;
 }
@@ -47,6 +46,10 @@ ul{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
 
 
@@ -97,7 +100,7 @@ grid-template-columns: 33% 33% 33%;
 .contenedor{
   text-align: center;
   width: 80%;
-  height: 400px;
+  height: 550px;
   margin-left: 10%;
   margin-right: 10%;
   
@@ -308,5 +311,45 @@ ul {
   .container{
     grid-template-columns: 100%;
   }
+
+  .contenedor1{
+    margin-bottom: 20px;
+  }
+
+  .container .card{
+    margin-top: 5px;
+  }
+  .contenedor1{
+    height: auto;
+  }
+
+  .blog{
+    height: auto;
+  }
+  
+  .navbar-nav{
+display: block;
+text-align: center;
+  }
+
+  .nav-item{
+    display: inline-block;
+    width: 24%;
+  }
+  .contenedor-logo{
+    width: 100%;
+   
+  }
+  .navbar a{
+    float: none;
+  }
+  .navbar{
+    padding-right: 0;
+  padding-left: 0;
+  }
+  img{
+    max-width: 100%;
+  }
+
 
 }
